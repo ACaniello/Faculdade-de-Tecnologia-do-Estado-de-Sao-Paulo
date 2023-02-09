@@ -1,0 +1,48 @@
+Aula 09/02/2023
+
+JAVA
+
+- Alocação dinâmico e ponteiros
+
+- Arquivos - manipulação de arquivos
+
+- Introdução a notação assintótica
+
+- Tipos abstratos de dados: 
+  
+  fila: adiciona, remove, primeiro, etc FIFO
+  Aplicações: Fila de impressora, fila de espera de call center
+  
+  listas encadeadas (com ponteiros por exemplo)
+  
+  lista duplamente encadeadas
+  
+  grafos
+  não dirigido, dirigido, ponderado
+  
+  Aplicações: GPS (caminho criado pelo GPS), proteínas ligadas a outras coisas
+  
+  Árvores, tipo espefical de grafos
+  
+  Aulas expositivas, aulas práticas.
+  
+  
+  Critérios Avaliados
+   - Exercícios em laboratório
+   - Observação direta 
+   - Avaliação P1, P2 e P3 caso necessário.
+
+
+
+ 1 - Considere um conjunto de dados (vetor) contendo a altura de N alunos.
+ * a - Imprima a maior altura.
+ * b - imprima a altura média.
+ * c - imprima a quantidade de alunos com altura acima da média.
+ 
+double maior = 0;
+for (int i = 0, i < 50, i++) {
+  if (Alturas[i]>maior) {
+      (maior = Alturas[i] {
+     }
+  }
+  print (maior)
