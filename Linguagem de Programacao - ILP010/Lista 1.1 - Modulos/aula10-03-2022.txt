@@ -1,0 +1,85 @@
+1 - Modularização
+- Vantagens:
+-- Otimiza o algoritmo
+-- Facilita o entendimento
+-- Gera qualidade na manutenção
+-- Diminui o custo de obra
+--- É um conjunto de comandos agrupados a partir de um objetivo específico
+
+____________________________________________________________________________________________________
+____________________________________________________________________________________________________
+
+Exercicios de modulos:
+16 ok
+17 ok
+18 ok
+19 ok
+20 ok
+21 ok
+22 ok
+23 ok
+24 ok
+25 ok
+26 ok
+27 ok
+28 ok
+29 ok
+30 
+31 ok
+32 ok
+33 ok
+34 ok
+35 ok
+36 ok
+37 ok
+38 
+39 
+40 ok
+41 ok
+42 ok
+42 ok
+43 ok
+44 ok
+45 ok
+
+- Procedure
+
+  public class First1 {
+    static num: int //GLOBAL
+    
+  public static void main (String arg[]){
+  
+    <comandos>;
+    modFirst1();
+    }
+    
+  public static void modFirst1(){
+  
+    <comandos>;
+    }
+  }
+  
+____________________________________________________________________________________________________
+____________________________________________________________________________________________________
+
+2 - Function
+  
+    public class Function1{
+    
+      public static main void(String args[]){
+      
+        int n1, n2//LOCAL
+        
+        <comandos>
+        
+        n2 = modfun01(n1)
+        System.out.println("valor" + n2);
+        }
+        
+      public static int modfun01(int n){
+    
+      <comandos>;
+      return n;
+      }
+     }
+ 

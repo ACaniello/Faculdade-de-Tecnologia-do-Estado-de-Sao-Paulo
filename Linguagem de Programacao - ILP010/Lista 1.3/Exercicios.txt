@@ -1,0 +1,26 @@
+8 | Criarecarregarmatrixquatroportres | Criar e carregar uma matriz [4][3] inteiro com quantidade de produtos
+vendidos em 4 semanas. Calcular e exibir:
+    a. A quantidade de cada produto vendido no mês;
+    b. A quantidade de produtos vendidos por semana;
+    c. O total de produtos vendidos no mês.
+
+9 | Criarecarregarmatrixquatroporquatro | Criar e carregar uma matriz [4][4] com valores aleatórios, sendo que a
+diagonal principal terá seus dados carregados no programa segundo:
+
+10 | Matrixoitoporoitoum | Criar uma matriz [8][8] onde o programa irá carregar segundo:
+[01][02][03][04][..]
+[01][02][04][08][..]
+
+11 | Matrixoitoporoitodois | Criar uma matriz [8][8] inteiro e o programa irá carregar segundo:
+[01] [01] [01] [01] [01] [01] [01] [01]
+[01] [02] [02] [02] [02] [02] [02] [01]
+[01] [02] [03] [03] [03] [03] [02] [01]
+[01] [02] [03] [04] [04] [03] [02] [01]
+[01] [02] [03] [04] [04] [03] [02] [01]
+[01] [02] [03] [03] [03] [03] [02] [01]
+[01] [02] [02] [02] [02] [02] [02] [01]
+[01] [01] [01] [01] [01] [01] [01] [01]
+
+12 | Carregarcodigotabuleirodexadrez | Carregar códigos das peças em um tabuleiro de xadrez, onde:
+Calcular e mostrar a soma das peças do tabuleiro.
+Não pode utilizar estrutura de decisão e Escolha Caso na contagem das peça

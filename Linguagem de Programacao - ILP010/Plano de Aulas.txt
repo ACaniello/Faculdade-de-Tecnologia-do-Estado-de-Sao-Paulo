@@ -1,0 +1,89 @@
+Aula 1 - Apresentação
+		
+	Apresentação 
+	Critério de notas e faltas
+	Conceitos básicos
+
+Aula 2 - Algoritmos Variáveis de memória, Operadores aritméticos e lógicos
+
+	Algoritmos
+	Variáveis de memória,
+	Operadores aritméticos e lógicos,
+	Teste de mesa e massa de dados com implementação em laboratório. 
+	Estrutura de decisão
+
+Aula 3 -  Estrutura de decisão
+
+	Estrutura de decisão: 
+	Simples,
+	Composta e
+	Encadeada com implementação em laboratório. 
+	Estrutura de Repetição
+
+Aula 4 -  Estrutura de Repetição
+
+	Estrutura de Repetição 
+	Múltipla Escolha com implementação em laboratório.
+	Aulas expositivas, participativas com práticas em laboratório
+
+Aula -  Modularização
+
+	Modularização: 
+		- procedimentos 
+		-  funções  
+	Ordenação
+	Recursividade 
+
+Aula 6 - Variáveis homogêneas
+
+	Variáveis homogêneas 
+		- vetores
+		- matrizes 
+
+Aula 7 - Variáveis homogêneas
+
+	Variáveis homogêneas 
+		- vetores
+		- matrizes
+
+	Modularização 
+		- procedimentos
+		- funções
+
+Aula 8 -  Exercícios (Vetores e Matrizes com Modularização)
+
+Aula 9 -  Exercícios de fixação 1 (Vetores e Matrizes com Modularização)
+
+Aula 10 -  Estrutura de registro lógico
+
+Aula 11 - Geração de arquivos (.TXT)
+
+	Geração de arquivos (.TXT) 
+		- Gravação
+
+Aula 12 - Geração de arquivos (.TXT)
+
+	Geração de arquivos (.TXT) 
+		(Leitura e Gravação)
+
+Aula 13 -  Exercícios com arquivo sequencial
+
+Aula 14 - Exercícios de atualização com arquivos sequencial
+
+	Exercícios de atualização com arquivos sequencial
+		(Balance-line) 
+
+Aula 15 - Exercícios de atualização com arquivos sequencial
+
+	Exercícios de atualização com arquivos sequencial
+		(Merge)
+
+Aula 16 - Projeto Proposto (Variáveis Heterogêneas: Registro Lógico)
+
+Aula 17 - Exercícios de fixação 2 (Gravação de Arquivo a partir do Registro Lógico)
+
+Aula 18 - Leitura e gravação do registro lógico
+
+Aula 19 - Exercício de fixação 3 (Leitura e gravação de registro lógico)
+
+Aula 20 - Leitura e gravação do registro lógico
