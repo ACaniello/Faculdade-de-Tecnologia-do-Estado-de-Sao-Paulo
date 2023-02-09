@@ -1,0 +1,39 @@
+Data PROVÁVEL: 25/11
+
+Enviar por email (um por grupo) até 23/11 com o assunto: SO-REDES-251122
+
+Apresentação em grupo para o Projeto Integrado(até 10 minutos)
+
+Ordem de apresentação:
+A DEFINIR
+1 - G, 2 - G, 3 - G, 4 - G, 5 - G, 6 - G, 7 - G
+
+Seu trabalho deve apresentar:
+
+Descrição do projeto
+Link(domínio da aplicação – sugerido caso não exista)
+Pode colocar também o em uso
+
+Prototipação das telas já desenvolvidas
+
+Requisitos para o Web server:
+SO (Windows Server, Linux ou outro)
+Web Server(Apache, IIS etc..)
+
+Server(levantar no site do fabricante – IBM, DELL, HP etc): Se for virtual ou em Cloud, também precisa de informações
+Processador
+Memoria
+Armazenamento
+Elementos de redundância(alta disponibilidade)
+
+
+Cliente:
+Browser
+SO
+App
+
+Redes:
+caminho a ser utilizado pelo cliente(externo) até o Web server(usar Packet Tracer(Cisco) para demonstrar com uma imagem) - NÂO será carregado Packet Tracer na apresentação
+Protocolos no modelo TCP/IP e portas utilizadas
+
+Coloque imagens na sua apresentação, em especial o Server e a utilização do Packet Tracer

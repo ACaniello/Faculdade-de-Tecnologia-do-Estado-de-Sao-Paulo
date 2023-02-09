@@ -1,0 +1,51 @@
+Regras Batalha SO's
+Data: 07/10/22 -APRESENTAÇÃO
+
+Em grupo (enviar apresentação por email até 05/10/22) com arquivo anexado(Não envie links!)
+
+1) Apresentação do tema escolhido (6 pontos)
+Apresentação Powerpoint(formatação com qualidade, imagens, gráficos e outros recursos para valorizar a apresentação);
+Pode conter pequeno vídeo, que complemente a informação, Não é video da sua apresentação.
+média 6  minutos; 
+
+2) Réplica - Contrário a apresentação anterior (3 pontos)
+Apresentação Powerpoint(formatação com qualidade, imagens, gráficos e outros recursos para valorizar a apresentação);
+média 2  minutos;  
+
+3) Tréplica - Grupo que é favor do SO debate os contras apresentados pelo outro grupo. Somente defesa oral.
+média 1  minutos; (1 ponto)
+
+Principais critérios:
+- entrega na data;
+- qualidade dos slides;
+- apresentação dentro do tempo estipulado;
+- desenvolvimento do tema;
+- capacidade de "reação"
+- todos do grupo tem que particiipar;
+- quem faltar não terá nota.
+
+Temas e oponentes na ordem de apresentação(SORTEAR!):
+
+Início às 8h15 - Quem não estiver presente ficará SEM NOTA!
+
+G8(Steam OS) x G9
+G9(Mongoose OS) x G1
+G1(Web OS) x G2
+G2(Contiki) x G3
+G3(Mbed OS) x G4
+G4(Cent OS) x G5
+G5(Watch OS) x G6
+G6(Orbis OS) x G7
+G7(Parrot OS) x G8
+
+10 - Endrew - Não definiu até o prazo limite.
+
+Exemplo de. Batalha:
+1) - Apresentação
+G1 - Web OS
+
+2) - Réplica
+G2 - vai falar os pontos negativos do Web OS
+
+3) - Tréplica
+G1 - Fará a última defesa do Web OS
