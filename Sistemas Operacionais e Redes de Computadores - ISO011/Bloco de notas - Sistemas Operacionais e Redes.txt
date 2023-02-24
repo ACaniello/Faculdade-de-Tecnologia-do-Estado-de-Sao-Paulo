@@ -1,6 +1,0 @@
-12 - 08 - 2022
-
-Foi especificado a forma pedagógica da matéria, como será dada as notas e os cursos que precisam ser feitos na plataforma CISCO.
-
-- Me registrei no curso de NDG -- Linux Unhatched
-- Me registrei no curso Get Connected também
