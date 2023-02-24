@@ -7,8 +7,8 @@
  *
  * 1 - Considere um conjunto de dados (vetor) contendo a altura de N alunos.
  * a - Imprima a maior altura.
- * b - imprima a altura média.
- * c - imprima a quantidade de alunos com altura acima da média.
+ * b - imprima a altura mï¿½dia.
+ * c - imprima a quantidade de alunos com altura acima da mï¿½dia.
  */
 
 /**
@@ -21,33 +21,34 @@ public class newJavaFile {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        int alunos, qtdAluno, qtdAlunos;
-        float altura, alturamedia, maior, menor;
-    }
+                public static void main(String args[]) {
+                     int alunos, qtdAluno, qtdAlunos;
+                     float altura, alturamedia, maior, menor;
+                 }
     
-    for (int i=0; i<10; i++) {
-        System.out.print("Digite seu nome");
-        alunos = entrada.nextInt();
-        System.out.print("Digite a sua altura");
-        altura = entrada.nextFloat();
-        if (aluno1 == 1) {
-            qtdAluno++
-        } else if (aluno2 = 2) {
-            qtdAlunos++
-        }
-    }
+                for (int i=0; i<10; i++) {
+                System.out.print("Digite seu nome");
+                alunos = entrada.nextInt();
+                System.out.print("Digite a sua altura");
+                altura = entrada.nextFloat();
+        
+                    if (aluno1 == 1) {
+                    qtdAluno++
+                    } else if (aluno2 = 2) {
+                    qtdAlunos++
+                    }
+                }
     
-    if (altura > maior){
-    maior = altura
-    } else if (altura < menor){
-    menor = altura
-}
+                if (altura > maior){
+                maior = altura;
+                } else if (altura < menor){
+                menor = altura;
+                }
     
-    alturamedia = qtdAluno + qtdAlunos; 
+                alturamedia = qtdAluno + qtdAlunos; 
             
-        System.out.println("A maior altura do grupo é de " + maior + "aluno, e a de menor é de + menor + "aluno")
-        System.out.println("A média de altura dos homens é " + alturamedia + " m");
+        System.out.println("A maior altura do grupo eh de " + maior + "aluno, e a de menor eh de + menor + "aluno");
+        System.out.println("A media de altura dos homens ï¿½ " + alturamedia + " m");
         
         entrada.close();
     
