@@ -26,7 +26,7 @@ public class Exercicio5 {
         }else{         
             System.out.println("O maior valor é " + valor2);        
         }                                
-    }       
+          
         
         System.out.println("Digite o segundo valor: ");        
         int valor2 = teclado.nextInt();
@@ -36,5 +36,6 @@ public class Exercicio5 {
         }else{
             System.out.println("O menor valor é " + valor2);
         }
+    } 
         
     }
