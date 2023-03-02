@@ -1,5 +1,7 @@
 // Imprima a sequência de Fibonacciaté o número 1000. Essa sequência começa com os números 1, 1 e depois disso, os próximos números são a soma dos dois anteriores: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987.
 
+import javax.swing.*;
+
 public class Exercicio11 {
     public static void main(String[] args) {
 
@@ -25,3 +27,15 @@ public class Exercicio11 {
         JOptionPane.showMessageDialog(null, fibonacci, tn + "º Term", JOptionPane.INFORMATION_MESSAGE);
     }
 }
+
+//public class Exercicio11 {
+//    public static void main(String[] args) {
+//        int numAtual = 1, anterior = 0, resultado = 1;
+//        while(numAtual < 1000){
+//            System.out.println(resultado);
+//            resultado = anterior + numAtual;
+//            anterior = numAtual;
+//            numAtual = resultado;
+//        }
+//    }
+//}
