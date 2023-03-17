@@ -1,7 +1,5 @@
 # Studies and Books Repository
 
-### All the books on the list have been read and will later be donated to public libraries in São Paulo.
-
 ## History
 | Name | Author | Amazon Review | Year Published | Read |
 |------|--------|------------------|----------------|------|  
