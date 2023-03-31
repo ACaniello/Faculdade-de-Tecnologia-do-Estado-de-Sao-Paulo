@@ -1,0 +1,69 @@
+create database database if not exists;
+
+use database;
+
+create table Cliente (
+	name varchar(255) not null,
+	telephone varchar(19),
+	email varchar(70) not null,
+	cpf int(11) not null,
+	primary key (id)
+);
+
+create table Veiculo (
+	id_cliente int not null auto_increment,
+	cor varchar(30) not null,
+	modelo varchar (30),
+	chassi varchar(17),
+	primary key (id)
+);
+
+create table Relato_Cliente (
+	id_relato int not null auto_increment,
+	id_veículo int not null auto_increment,
+	problema varchar (500) not null,
+	data date,
+	primary key (id)
+);
+
+create table Orçamento (
+	situação varchar (40) not null,
+	valor varchar (15) not null,
+	id_cliente int not null auto_increment,
+	data date,
+	previsaoEntrega date,
+	forma_pagamento varchar (40) not null,
+	id_veículo int not null auto_increment,
+	primary key (id)
+);
+
+create table item_servico (
+	custo varchar (40) not null,
+	situacao varchar (100) not null,
+	descrição varchar(500) not null,
+	id_servico int not null auto_increment,
+	id_produto int not null auto_increment,
+	quantidade varchar (10) not null,
+);
+
+create table Produto (
+	id_cliente int not null auto_increment,
+	custo varchar(40) not null,
+	descrição varchar(500) not null,
+);
+
+create table item_produtos (
+	id_cliente int not null auto_increment,
+	custo varchar(40) not null,
+	descrição varchar(500) not null,
+	id_orcamento int not null auto_increment,
+	id_produto int not null auto_increment,
+	quantidade varchar (10) not null,
+);
+
+create table Servico (
+	id_cliente int not null auto_increment,
+	custo varchar(40) not null,
+	descrição varchar(500) not null,
+	tempo_realiza time,
+);
