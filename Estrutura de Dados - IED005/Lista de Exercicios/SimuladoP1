@@ -1,0 +1,311 @@
+Para as questões a seguir, considere que caso um dado seja solicitado e não haja esse dado, o método retornará null. 
+Exemplo: localizar um dado em índice que não existe numa lista; desempilhar uma pilha vazia etc.
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+1 - Ao executar o código da figura o que será impresso?
+
+Pilha pilha = new Pilha();
+pilha.empilhar("A");
+pilha.empilhar("B");
+pilha.empilhar("C");
+pilha.empilhar("D");
+
+System.out.println(pilha.topo());
+System.out.println(pilha.desempilhar());
+pilhar.empilhar("X");
+System.out.println(pilha.desempilhar());
+System.outprintln(pilha.topo());
+
+
+-------------------------------PILHA INICIAL-------------------------------
+
+                  |D|
+                  |C|
+                  |B|
+                  |A|
+                  
+-------------------------------System.out.println(pilha.desempilhar());-------------------------------
+
+
+                  | |
+                  |C|
+                  |B|
+                  |A|
+                  
+-------------------------------pilhar.empilhar("X");-------------------------------
+
+
+                  |X|
+                  |C|
+                  |B|
+                  |A|
+                  
+-------------------------------System.out.println(pilha.desempilhar());-------------------------------
+
+
+                  | |
+                  |C|
+                  |B|
+                  |A|
+                  
+-------------------------------System.outprintln(pilha.topo());-------------------------------
+
+
+                  | |
+                  |C| <- TOPO
+                  |B|
+                  |A|
+                  
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+2 - Ao executar o código da figura o que será impresso?
+
+Pilha pilha = new Pilha();
+pilha.empilhar("A");
+pilha.empilhar("B");
+pilha.empilhar("C");
+pilha.empilhar("D");
+pilha.empilhar("E");
+pilha.empilhar("F");
+
+while (pilha.desempilhar()!=null) {
+  System.out.println(pilha.topo());
+  System.out.println(pilha.desempilhar());
+  }
+}
+
+-------------------------------PILHA INICIAL-------------------------------
+
+                  |F|
+                  |E|
+                  |D|
+                  |C|
+                  |B|
+                  |A|
+                  
+Ele não empilha, logo, ele vai desempilhar até o final.
+
+
+-------------------------------System.out.println(pilha.desempilhar());-------------------------------
+
+                  | |
+                  |E| <- O E será o topo - System.out.println(pilha.topo());
+                  |D|
+                  |C|
+                  |B|
+                  |A|
+      
+ -------------------------------System.out.println(pilha.desempilhar());-------------------------------
+ 
+                  | |
+                  | | 
+                  |D| <- Será o novo
+                  |C|
+                  |B|
+                  |A|
+
+                  | |
+                  | | 
+                  | | 
+                  |C| <- Será o novo
+                  |B|
+                  |A|
+                  
+                  | |
+                  | | 
+                  | | 
+                  | | 
+                  |B| <- Será o novo
+                  |A|
+                  
+                  | |
+                  | | 
+                  | | 
+                  | | 
+                  | | 
+                  |A| <- Será o novo
+       
+ A resposta é:      
+                  |E|
+                  |E|
+                  |C|
+                  |C|
+                  |B|
+                  |B|
+                  |A|
+                  |A|
+ 
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+3 - Ao executar o código da figura o que será impresso?
+
+public class --------------------- {
+  public static void main(String[] args) {
+    int num = S;
+    int resultado = misterioTotal(num);
+    System.out.println(resultado,"");
+ }
+ 
+ public static int misterioTotal(int n) {
+    if (n == 0) {
+      return 1;
+  } else {
+      return n * misterioTotal(n-1);
+                    5 * misterioTotal(5-1)
+                      5 * misterioTotal(4)
+                        5 * misterioTotal(4-1)
+                          5 * misterioTotal(3)
+                           5 * misterioTotal(3-1)
+                            5 * misterioTotal(2)
+                              5 * misterioTotal(2-1)
+                                5 * misterioTotal(1)
+                                  5 * (Aqui está sendo posicionado todos os resultados do n-1): 4 * 3 * 2 * 1 = 120
+  }
+ }
+ 
+ ---------------------------------------------------------------------------------------------------------------------------
+ OUTRA FORMA DE ENTENDER
+ ---------------------------------------------------------------------------------------------------------------------------
+ 
+Imprimir(bloco1)
+
+bloco1(n)
+	return n * bloco2(n - 1) para o imprimir
+		bloco2(n)
+			return n * bloco3(n - 1) para o bloco 1
+				bloco3(n)
+					return n * bloco4(n - 1)  para o bloco 2
+						bloco4(n)
+							return n * bloco5(n - 1) para o bloco 3
+								bloco5(n)
+									return n * bloco6(n - 1) para o bloco 4
+										bloco6(n)
+											return 1 para o bloco 5
+
+# execução
+
+bloco1(5)
+	return 5 * bloco2(4)
+		bloco2(4)
+			return 4 * bloco3(3)
+				bloco3(3)
+					return 3 * bloco4(2)
+						bloco4(2)
+							return 2 * bloco5(1)
+								bloco5(1)
+									return 1 * bloco6(0)
+										bloco6(0)
+											return 1
+
+# outras formas de entender
+
+5 * n - 1 => 4 * n -1 => 3 * n -1 => 2 * n -1 => 1 * n -1 => 0 = return 1
+
+ou
+
+n = 5 => n * (n - 1 * (n - 2 * (n - 3 * (n - 4 * 1))))
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+4 - Qual dos métodos abaixo está correto -
+
+public class Lista {
+  long tamanho;
+  No inicio;
+  No fim;
+  
+  Lista(){
+    tamanho = 0;
+    inicio = null;
+    fim = null;
+  }
+
+-------------------------------A-------------------------------
+
+void adicionar (Object info) {
+  No no = new No(info);
+  if (estaVazia()) {
+    inicio = no;
+  }
+  fim = no;
+  tamanho++;
+}
+
+-------------------------------B-------------------------------
+
+void adicionar(Object info);
+  No no = new No(info);
+  if(estaVazia()) {
+    inicio = no;
+  }
+  else {
+    fim.prox = no;
+  }
+  
+  fim = no;
+  tamanho++;
+}
+-------------------------------C-------------------------------
+
+void adicionar(Object info) {
+  No no = new No(info);
+  fim = no;
+  if (estaVazia()) {
+    inicio = no;
+  }
+  else {
+    fim.prox = no;
+  }
+  tamanho++;
+}
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+5 – Remova apenas a base (Letra E) de uma instância de Pilha chamada pilhaX . 
+Use os métodos da própria classe Pilha: estaVazia( ), empilhar( ), desempilhar. 
+A figura é apenas um exemplo, seu código tem que funcionar para quaisquer dados.
+
+public class pilhaX {
+public static void main (String[] args) {
+
+Pilha<String> PILHA = new Pilha<String>();
+Object desempilhar;
+
+  pilha.push("A");
+  pilha.push("B");
+  pilha.push("C");
+  pilha.push("D");
+  pilha.push("E");
+ 
+ // Mostrando a pilha: 
+ System.out.println ("A pilha contém: + PILHA);
+ 
+ // Removendo elemento da pilha:
+ desempilhar = pilhax.desempilhar;
+ if (pilhax != null)
+  JOptionPane.shoeMessageDialog (null, " O elemento retirado é: " + desempilhar);
+  }
+}
+
+-------------------------------
+ -------------------------------RESPOSTA CORRETA-------------------------------
+                                                 -------------------------------
+                                                 
+
+ 
+
+                                               
+
+
+
