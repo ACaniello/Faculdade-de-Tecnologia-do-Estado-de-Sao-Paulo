@@ -291,6 +291,10 @@ Object desempilhar;
  // Mostrando a pilha: 
  System.out.println ("A pilha contém: + PILHA);
  
+ boolean res = pilha.remove("E");
+ System.out.println("Removemos o E da pilha" + res);
+ System.out.println("O final da pilha é: " + PILHA);
+ 
  // Removendo elemento da pilha:
  desempilhar = pilhax.desempilhar;
  if (pilhax != null)
@@ -302,6 +306,28 @@ Object desempilhar;
  -------------------------------RESPOSTA CORRETA-------------------------------
                                                  -------------------------------
                                                  
+public class Main {
+public static void main (String[] args) {
+
+Stack<String> stack = new Stack<String>();
+Object desempilhar;
+
+  stack.push("A");
+  stack.push("B");
+  stack.push("C");
+  stack.push("D");
+  stack.push("E");
+ 
+ // Mostrando a pilha: 
+ System.out.println ("A pilha contém: " + stack);
+ 
+ // Removendo o elemento da pilha e mostrando a pilha sem o item E:
+ boolean res = stack.remove("E");
+ System.out.println("Removemos o E da pilha" + res);
+ System.out.println("O final da pilha é: " + stack);
+ 
+	}
+}
 
  
 
