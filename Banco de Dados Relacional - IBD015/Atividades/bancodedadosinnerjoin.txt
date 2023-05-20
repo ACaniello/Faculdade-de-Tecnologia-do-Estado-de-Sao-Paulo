@@ -1,0 +1,23 @@
+create database aula;
+
+use aula;
+
+CREATE TABLE tabelaA(
+	Nome varchar (50)
+);
+
+CREATE TABLE tabelaB(
+	Nome varchar (50)
+);
+
+INSERT INTO tabelaA VALUES ("SILVIO");
+INSERT INTO tabelaA VALUES ("CLÁUDIA");
+INSERT INTO tabelaA VALUES ("TAÍS");
+INSERT INTO tabelaA VALUES ("IVETE");
+
+INSERT INTO tabelaB VALUES ("SILVIO");
+INSERT INTO tabelaB VALUES ("CLÁUDIA");
+INSERT INTO tabelaB VALUES ("TAÍS");
+INSERT INTO tabelaB VALUES ("IVETE");
+
+
